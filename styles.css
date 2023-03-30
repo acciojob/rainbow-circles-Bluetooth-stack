@@ -1,1 +1,75 @@
 /*  your css code here. If applicable */
+#outer{
+	position: relative;
+	z-index:-1;
+	display: flex;
+ 	justify-content: center;
+}
+#middle{
+	position: relative;
+	z-index:1;
+	display: flex;
+ 	justify-content: center;
+}
+
+#middle #inner{
+	position: relative;
+	z-index:5;
+	display: flex;
+ 	justify-content: center;
+}
+
+#outer .outer1{
+	height: 300px;
+	width:300px;
+	background-color: #ff0000;
+	position: absolute;
+	border-radius: 50%;
+}
+#outer .outer2{
+	height: 250px;
+	width:250px;
+	background-color: #ffa500;
+	position: absolute;
+	top:25px;
+	border-radius: 50%;
+}
+#middle .middle1{
+	height: 200px;
+	width:200px;
+	background-color: #ffff00;
+	position: absolute;
+	top:50px;
+/* 	left: 190px; */
+	border-radius: 50%;
+}
+#middle .middle2{
+	height: 150px;
+	width:150px;
+	background-color: #008000;
+	position: absolute;
+	top:75px;
+/* 	left: 190px; */
+	border-radius: 50%;
+}
+
+#middle #inner .inner1{
+	height:100px;
+	width: 100px;
+	background-color:#0000ff;
+	position: absolute;
+	top:100px;
+/* 	left: 190px; */
+	border-radius: 50%;
+}
+
+#middle #inner .inner2{
+	height: 50px;
+	width: 50px;
+	background-color: #800080;
+	position: absolute;
+	top:125px;
+/* 	left: 190px; */
+	border-radius: 50%;
+}
+
