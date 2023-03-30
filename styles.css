@@ -4,9 +4,9 @@
 	background: #ffa500;
 	border-radius: 50%;
 	border: 25px solid #ff0000;
-	display: flex;
+/* 	display: flex;
 	justify-content: center;
-	align-items:center
+	align-items:center */
 }
 #middle{
 	height: 200px;
@@ -14,9 +14,10 @@
 	background: #008000;
 	border-radius: 50%;
 	border: 25px solid #ffff00;
-	display: flex;
+/* 	display: flex;
 	justify-content: center;
-	align-items:center
+	align-items:center */
+	margin: 25px;
 }
 #inner{
 	height: 100px;
@@ -24,4 +25,5 @@
 	background: #800080;
 	border-radius: 50%;
 	border: 25px solid #0000ff;
+	margin: 25px;
 }
